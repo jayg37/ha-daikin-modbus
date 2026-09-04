@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Daikin Modbus",
+        "description": "Select the shared Modbus connection and enter the Aidoo unit ID.",
+        "data": {
+          "connection": "Modbus connection",
+          "unit_id": "Modbus unit ID"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to communicate with the selected Modbus unit."
+    }
+  }
+}

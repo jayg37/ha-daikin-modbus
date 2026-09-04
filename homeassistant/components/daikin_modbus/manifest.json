@@ -1,0 +1,13 @@
+{
+  "domain": "daikin_modbus",
+  "name": "Daikin Modbus",
+  "codeowners": ["@jayg37"],
+  "config_flow": true,
+  "dependencies": ["modbus_connection"],
+  "documentation": "https://github.com/jayg37/ha-daikin-modbus",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "loggers": ["modbus_connection", "daikin_modbus"],
+  "quality_scale": "bronze",
+  "requirements": ["daikin-modbus==0.1.0"]
+}
