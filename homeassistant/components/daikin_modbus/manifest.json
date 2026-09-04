@@ -4,7 +4,7 @@
   "codeowners": ["@jayg37"],
   "config_flow": true,
   "dependencies": ["modbus_connection"],
-  "documentation": "https://github.com/jayg37/ha-daikin-modbus",
+  "documentation": "https://www.home-assistant.io/integrations/daikin_modbus",
   "integration_type": "device",
   "iot_class": "local_polling",
   "loggers": ["modbus_connection", "daikin_modbus"],
